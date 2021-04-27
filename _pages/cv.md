@@ -15,7 +15,7 @@ Education
 * MSc in Physics (by research) (Distinction), <i>Lancaster University</i>, 2018 - 2020
 
   
-Coding Projects
+Researcb Projects
 ======
 {% for post in site.research_experience reversed%}
   {% include archive-single.html %}
