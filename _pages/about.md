@@ -10,8 +10,6 @@ redirect_from:
 
 I am a graphics designer. If you have anything you would like made then please don't hesitate to get in touch :)
 
-<img src='/images/STEMsocLogo.jpg'> 
-<img src='/images/TraveLab.jpg'>
 <img src='/images/Graphics/Ali.png'>
 <img src='/images/Graphics/AmongUs.png'>
 <img src='/images/Graphics/Bob.png'>        
