@@ -14,14 +14,8 @@ Education
 * MPhys Physics (1st), <i>The University of Manchester</i>, 2013 - 2017
 * MSc in Physics (by research) (Distinction), <i>Lancaster University</i>, 2018 - 2020
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
-  
-Research Projects
+Projects
 ======
 {% for post in site.research_experience reversed%}
   {% include archive-single.html %}
