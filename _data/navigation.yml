@@ -1,13 +1,14 @@
 # main links links
 main: 
+    
   - title: "Research Experience"
     url: /research_experience/    
-
+    
   - title: "Public Engagement"
-    url: /public_engagement/    
-
+    url: /public_engagement/  
+    
   - title: "Teaching"
-    url: /teaching/
+    url: /teaching  
     
   - title: "CV"
     url: /CV/

@@ -77,7 +77,7 @@ analytics:
 author:
   name             : "Joshua Wengraf"
   avatar           : "ProfilePicure3.jpg"
-  bio              : "MPhys and MSc (by research) graduate of the Graphene NOWNANO CDT"
+  bio              : "MPhys and MSc (by research) graduate"
   location         : # "Location"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -87,21 +87,21 @@ author:
   uri              :
   bitbucket        :
   codepen          :
-  dribbble         :
+  dribbble         : 
   flickr           :
-  facebook         : joshua.wengraf
+  facebook         : JoshuaWengraf
   foursquare       :
-  github           : "Joshuawengraf"
+  github           : 
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : Joshua.Wengraf
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : 
-  orcid            :  https://orcid.org/0000-0001-5736-038X
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  orcid            : "http://orcid.org/0000-0001-5736-038X"
+  pinterest        : 
+  soundcloud       : 
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : JoshuaWengraf
@@ -110,7 +110,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  arXiv            : https://arxiv.org/search/?query=wengraf&searchtype=all&source=header 
+  arXiv            : # https://arxiv.org/search/?query=wengraf&searchtype=all&source=header 
 
 # Reading Files
 include:
@@ -170,6 +170,9 @@ kramdown:
 
 # Collections
 collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -180,9 +183,6 @@ collections:
     output: true
     permalink: /:collection/:path/
   public_engagement:
-    output: true
-    permalink: /:collection/:path/
-  research_experience:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -221,6 +221,17 @@ defaults:
       author_profile: true
       share: true
       comments: true
+   
+    # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      
   # _publications
   - scope:
       path: ""
@@ -239,6 +250,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+      
   # _talks
   - scope:
       path: ""
