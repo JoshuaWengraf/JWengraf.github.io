@@ -1,0 +1,15 @@
+---
+title: "A Correlated Percolation Model for the Spread of Chalara Ash Dieback"
+excerpt: "For my final year MPhys project I developed a simulation in Python to model the spread of Chalara Ash Dieback in the UK."
+permalink: /a_correlated_percolation_model_for_the_spread_of_chalara_ash_dieback/
+collection: research_experience
+
+---
+
+For my final year masters project I developed a simulation to model the spread of Chalara Ash Dieback in the UK. The simulation was executed on a square grid, with infected squares infecting neighboring squares with probability p and killing them with probability 1-p; which represent infection and immunisation respectfully. We also introduced a probability for infected squares to infect any other random square on the grid. We fit values of p to data provided by the forestry commission to give insight as to whether the epidemic was mostly due to short range or long range infections.
+
+<br/>
+
+<br/>
+
+<img src='/images/ChalaraSimulationExample.PNG'> <img src='/images/R(p).png'>

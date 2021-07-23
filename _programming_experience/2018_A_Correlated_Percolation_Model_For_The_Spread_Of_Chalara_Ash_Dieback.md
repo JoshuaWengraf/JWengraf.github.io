@@ -2,7 +2,7 @@
 title: "A Correlated Percolation Model for the Spread of Chalara Ash Dieback"
 excerpt: "For my final year MPhys project I developed a simulation in Python to model the spread of Chalara Ash Dieback in the UK."
 permalink: /a_correlated_percolation_model_for_the_spread_of_chalara_ash_dieback/
-collection: research_experience
+collection: programming_experience
 
 ---
 
